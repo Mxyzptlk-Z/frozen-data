@@ -1,0 +1,20 @@
+database:
+  mongodb:
+    host: localhost
+    port: 27017
+    username: null
+    password: null
+  
+  duckdb:
+    data_path: $proj_path$/database/file/duckdb/myduck.db
+    factor_path: $proj_path$/database/file/duckdb/factorbase.db
+  
+  chdb:
+    data_path: $proj_path$/database/file/chdb
+    factor_path: $proj_path$/database/file/chdb
+
+
+datasource:
+  tushare:
+    token: 7e47e25017560965ed54bca2ecfd24d8e4b482d7471694cf1dc40cf3
+    # 85e682c6b16d35bf37cce4b96d4e7e4a8beae5d1a330283c1f38809a
